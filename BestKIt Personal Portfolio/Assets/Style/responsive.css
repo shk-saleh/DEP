@@ -1,0 +1,185 @@
+@media (max-width:991px) {
+    
+    .text-lg{
+
+        font-size: 3.1rem;
+    
+    }
+    
+    .text-md{
+    
+        font-size:1.8rem;
+    
+    }
+
+
+
+    /* ---- To show navbar ----- */
+
+
+    .navigation-wrap{
+   
+        padding: 1.6rem 1.8rem !important;
+    
+    }
+    
+
+    .nav-close,
+    .hamburger-toggler{
+
+        display: block;
+    }
+
+    .nav-menu{
+
+        position: fixed;
+        top: 0;
+        right: -100%;
+        background-color: hsla(5, 3%, 8%, 0.1);
+        backdrop-filter: blur(6px);   
+        -webkit-backdrop-filter: blur(13px);
+        width: 20rem;
+        height: 100%;
+        padding: 5rem 5rem 0rem 1rem;
+        transition: right .5s;
+        z-index: 500000;
+        flex-direction: column;
+
+    }
+
+        
+    .nav-menu .nav-list{
+
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        z-index: 50000;
+    }
+
+
+
+    .show-menu{
+
+        right: 0;
+
+    }
+
+    /* home banner */
+
+    
+
+    .home-banner-wrapper{
+        padding: 7rem 0 0 0;
+    }
+    
+    .banner-text h2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    
+    .about-sec-row{
+        flex-direction: column-reverse;
+    }
+
+
+    /* skill section */
+
+    .skill-slider {
+        align-items: normal;
+        margin-left: 0;
+    }
+
+    .carousel-item .card{
+        max-width: 500px  !important;
+    }
+
+
+}
+
+
+
+@media (max-width:776px){
+
+    /* .text-md{
+    
+        font-size:1.6rem;
+    
+    } */
+
+    /* carousal */
+
+    .carousel-item .card{
+        max-width: 300px !important;
+    }
+
+    
+    .carousel-control-prev,
+    .carousel-control-next{
+        font-size: 18px !important;
+    }
+
+}
+
+
+@media (max-width:576px) {
+
+    .home-banner-wrapper{
+        padding: 8rem 0 0 0;
+    }
+
+    
+    .text-lg{
+
+        font-size: 2.6rem;
+    
+    }
+    
+    .text-md{
+    
+        font-size:1.5rem;
+    
+    }
+
+    .text-sm{
+    
+        font-size:1rem;
+    
+    }
+
+    p{
+        font-size: 0.7rem;
+    }
+
+
+
+        
+    .details_2 i{
+        margin: 0 0.1rem;
+    }
+
+    
+    .details_2 p{
+        margin: 0 0.5rem !important;
+    }
+
+    
+    .details_2 .line{
+        display: inline-block;
+        width: 10px;
+    }
+
+
+    /* nav-tabs  */
+
+    
+    .project_nav_tabs .nav-tabs li button{
+        padding: 0 !important;
+    }
+
+        
+  
+
+}
