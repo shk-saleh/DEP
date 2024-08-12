@@ -1,0 +1,129 @@
+@media (max-width:991px) {
+    
+    .main{
+        overflow-x: hidden;
+    }
+
+    html{
+        overflow-x:hidden;
+    }
+    
+    .navbarBrand{
+
+        font-size: 1.5rem;
+
+    }
+
+    
+    .nav-wrapper .navbar-collapse{
+
+        background: var(--card-color);
+        text-align: center;
+        width: 100%;
+        z-index: 999;
+        padding:2rem 0;
+    }
+      
+    .banner-btn-row{
+        justify-content: center;
+    }
+
+    .avatar-wrapper {
+
+        margin: 0 auto;
+
+    }
+
+    .home-avatar{
+        display: flex;
+    }
+
+    
+    
+    .nav-menu .nav-link::after{
+        display: none;
+    }
+
+    .nav-menu .nav-link:hover,
+    .nav-menu .nav-link.active,
+    .nav-menu .nav-link:focus{
+
+        color: var(--first-color)  !important;
+        font-weight: 700;
+        
+    }
+    
+    /* .owl-carousel {
+        margin-left: 2rem;
+    } */
+
+}
+
+@media (max-width:776px) {
+
+    html{
+        overflow-x:hidden;
+    }
+
+    .text-lg{
+        font-size: 2.5rem;
+    }
+
+    .about-sec-wrap{
+
+        padding: 5rem 0;
+    }
+    
+    .modal-content{
+
+        width: 620px !important;
+        padding: 1rem;
+    }
+
+    .project-thumbnail img {
+        height: 300px;
+    }
+
+    
+    
+  
+
+}
+
+
+@media (max-width:440px) {
+
+
+    .text-lg{
+        font-size: 2.1rem;
+    }
+
+
+    .text-md{
+        font-size: 1.3rem;
+    }
+
+    .banner-data h1{
+        font-size: 3.0rem;
+    }
+
+    .about-sec-wrap #about-me{
+
+        rotate: 0deg;
+        position: absolute;
+        top: -2rem;
+        left: 4rem;
+    }
+
+    .modal-content{
+
+        width: 400px !important;
+        padding: 1rem;
+    }
+
+    .contact-from-wrap {
+        width: 400px;
+    }
+
+
+}
