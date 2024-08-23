@@ -1,0 +1,47 @@
+@media (max-width:991px) {
+    
+
+    .nav-menu{
+
+        position: fixed;
+        bottom: -90vh;
+        right: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background: var(--container-color);
+        transition: background-color .4s, box-shadow .4s;
+        box-shadow: 0 -2px 32px hsla(0, 0%, 0%, .1);
+        padding: 1rem 0 !important;
+        z-index: 1050;
+
+    }
+
+    .nav-link i{
+
+        display: block;
+        font-size: 1.4rem;
+        padding: 0.6rem;
+    }
+
+    .nav-link span{
+
+        display: none;
+    }
+      
+
+
+}
+
+@media (max-width:576px) {
+
+
+
+    #Discount_img_1,
+    #Discount_img_2{
+    
+      width: 160px;
+    }
+
+
+}
