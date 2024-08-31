@@ -1,0 +1,164 @@
+@media (max-width:991px) {
+    
+
+
+    .text-lg{
+
+        font-size: 4.7rem;
+    
+    }
+
+    
+    p{
+        font-size: 0.7rem;
+    }
+
+
+    .offcanvas-body{
+
+        position: absolute;
+        top: 60px;
+        left: 30px;
+        overflow-y: visible !important;
+    }
+
+    .offcanvas-header{
+
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    
+    #bread-img-1,#bread-img-2{
+        display: block;
+    }
+
+    .navbar .offcanvas{
+
+        background: rgba(2, 0, 0, 0.301);
+        backdrop-filter: blur(5px); 
+        width: 320px !important;
+    }
+    
+    .offcanvas-header #close-btn i{
+    
+        color: var(--title-color);
+        font-size: 1.5rem;
+    }
+    
+    
+    .navbar .offcanvas{
+    
+        padding: 1.7rem;
+    }
+    
+    
+    .modal-backdrop.show {
+        opacity: 0 !important;
+    }
+    
+    
+    /* ========= Home banner CSS ========= */
+
+    .Home_Banner{
+    
+        padding: 10rem 0 3rem 0;
+    
+    }
+
+    .home-content{
+
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    
+    #about-img{
+        width: 90%;
+    }
+
+
+
+
+}
+
+
+
+@media (max-width:776px) {
+
+
+    .text-lg{
+
+        font-size: 3.9rem;
+        padding: 1rem 0;
+    }
+
+    
+    .text-md{
+
+        font-size:2.5rem;
+    }
+        
+
+        
+    p{
+
+        font-size: 0.7rem;
+    }
+
+    .home-img img {
+        width: 90%;
+    }
+
+
+    .card{
+
+        flex-direction: row !important;
+    }
+    
+    .about-data{
+
+        flex-direction: column-reverse;
+    }
+
+    .about-content{
+
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:576px) {
+
+        
+    .social_icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .address-wrapper{
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card{
+
+        flex-direction: column !important;
+    }
+    
+    #reverse-card{
+
+        flex-direction: column-reverse !important;
+
+    }
+
+
+
+}
